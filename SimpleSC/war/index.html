@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+  <head>
+  	<link href = "./styles/style.css" rel = "stylesheet" type = "text/css"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Simple Solar Calculator</title>
+  </head>
+
+  <body>
+  
+  <div class="contentArea">
+  	<h1>Simple Solar Calculator</h1>
+    
+	<form action="simplesc" method="post">
+		<table border="1">
+	
+		<caption>Please enter your installation details</caption>
+		
+		<tr>
+        	<td>System Size (KW)</td>
+        	<td><input type="text" name="systemSize"></td>        
+        </tr>
+      
+        <tr>
+        	<td>Percentage on North Roof</td>
+        	<td><input type="text" name="percentageOnNorthRoof"></td>        
+        </tr>
+      
+        <tr>
+        	<td>Percentage on West Roof</td>
+        	<td><input type="text" name="percentageOnWestRoof"></td>        
+        </tr>
+      
+      	<tr>
+        	<td>Efficiency Loss (North Roof)</td>
+        	<td><input type="text" name="efficiencyLossNorthRoof"></td>        
+      	</tr>
+      
+      	<tr>
+       		<td>Efficiency Loss (West Roof)</td>
+        	<td><input type="text" name="efficiencyLossWestRoof"></td>        
+      	</tr>
+      
+      	<tr>
+        	<td>Panel Efficiency</td>
+        	<td><input type="text" name="panelEfficiency"></td>        
+      	</tr>
+      
+      	<tr>
+        	<td>Inverter Efficiency</td>
+        	<td><input type="text" name="inverterEfficiency"></td>        
+      	</tr>
+      
+      	<tr>
+        	<td>Average Daily Hours of Sunlight</td>
+        	<td><input type="text" name="averageDailyHoursOfSunlight"></td>        
+      	</tr> 
+      	
+    	</table>
+    	
+    	<div class="buttonArea">
+    		<input type="reset" value="Clear Table"><input type="submit" value="Get Results">
+    	</div>
+		
+		
+
+
+
+	</form>
+    
+	
+  
+	</div>
+  
+    
+    
+    
+  </body>
+</html>

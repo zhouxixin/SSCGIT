@@ -1,0 +1,21 @@
+/*Set background color and font*/
+body {
+	background-color: #e0ebaf; 
+	text-align: center; 
+	font-family: Arial,Helvetica,sans-serif;	
+}
+
+/*Sets the content area*/
+div.contentArea {
+	width: 400px;	
+	text-align: center;
+	margin: auto;
+	margin-top: 50px
+}
+
+
+div.buttonArea {		
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+}
